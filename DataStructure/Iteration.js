@@ -159,10 +159,10 @@ const user = users[2];
 //   console.log(`${key}: ${user[key]}`);
 // }
 
-for (let role of user.roles) {
-  console.log(`Role: ${role}`);
-}
-
 // for (let role of user.roles) {
-//   console.log(role);
+//   console.log(`Role: ${role}`);
 // }
+
+for (let role of user.roles) {
+  console.log(role);
+}
