@@ -6,6 +6,14 @@ const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentV
 console.log(sum); // Output: 15
 
 
+let k=[
+    {ename: "Ram", salary: 17000},
+    {ename: "Sam", salary: 20000},
+    {ename: "John", salary: 25000},
+    {ename: "Ravi", salary: 30000}
+]
 
-const res=numbers.reduce((acc, cvalue)=>acc+cvalue, 0);
-console.log(res); // Output: 15                                       
+const res =k.reduce((acc,cele)=>{
+    return acc+cele.salary
+},0).map((salary) => salary * 1); // Assuming you want to multiply each salary by 1
+console.log(res); // Output: [17000, 20000, 25000, 30000]
