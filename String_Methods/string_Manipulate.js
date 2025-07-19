@@ -88,3 +88,8 @@
 // The toUpperCase() method converts a string to uppercase.
 // const str15 = "Hello, World!";
 // console.log(str15.toUpperCase()); // Output: HELLO, WORLD!
+
+// trim() method
+// The trim() method removes whitespace from both ends of a string.
+// const str16 = "   Hello, World!   ";
+// console.log(str16.trim()); // Output: Hello, World!
