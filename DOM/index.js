@@ -18,18 +18,18 @@
 // console.log(k)
 
 
-let res=document.querySelector('h1')
-console.log(res)
+// let res=document.querySelector('h1')
+// console.log(res)
 
-let p=document.querySelectorAll('.para1')
-console.log(p)
+// let p=document.querySelectorAll('.para1')
+// console.log(p)
 
-let para=document.querySelectorAll('#check')
-console.log(para)
+// let para=document.querySelectorAll('#check')
+// console.log(para)
 
 
-// create element
+// // create element
 
-let h1=document.createElement('h1')
-h1.innerHTML="Hello world"
-document.body.appendChild(h1)
+// let h1=document.createElement('h1')
+// h1.innerHTML="Hello world"
+// document.body.appendChild(h1)
